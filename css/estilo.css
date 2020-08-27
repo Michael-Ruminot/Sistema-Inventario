@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+}
+
+/* -----------------------------------------------*/
+
+#logo{
+	height: 100%;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	left: 800px;
+}
+
+nav {
+	margin: 20px auto 0;
+	position: relative;
+	width: 590px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 17px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+nav a:nth-child(1) {
+	width: 240px;
+}
+nav a:nth-child(2) {
+	width: 130px;
+}
+nav a:nth-child(3) {
+	width: 190px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 230px;
+	left: 0;
+	background-color: #238d1c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 160px;
+	left: 223px;
+	background-color: #3498db; 
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 190px;
+	left: 400px;
+	background-color:  #ab1500;
+}
+
+
+nav a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+
+/* -----------------------------------------------------*/
+
+
+.form_register{
+	margin-top: 20px; 
+}
+
+.form-list{
+	margin-top: 30px;
+}
+
+.form-list thead{
+	background-color: black;
+	color: white;
+}
+
+.form-list label{
+	font-family: Helvetica, Arial, sans-serif;
+	pointer-events: none;
+    cursor: default;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#logoexcel{
+	width: 40px;
+	height: 40px;
+}
+
+#logopdf{
+	width: 40px;
+	height: 40px;
+}
+
+#labelgasto{
+	float: right;
+}
+
+/* ---------------------------------------------------------*/
