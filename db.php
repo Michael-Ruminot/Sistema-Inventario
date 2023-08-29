@@ -8,7 +8,8 @@
 		'localhost',
 		'root',
 		'',
-		'crud'
+		'pdv',
+		'33065'
 	);
 
 

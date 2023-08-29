@@ -1,0 +1,85 @@
+h4{
+    color: rgb(0, 0, 0);
+    position: relative;
+    right: 84em;
+    top: 17.5em;
+    display: inline-block;
+}
+
+
+.menulateral{
+    background-color: #252424;
+
+}
+
+.navegador{
+    background-color: rgba(247, 247, 55, 0.7);
+}
+
+.btnexit{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+
+.btnexit :hover{
+    background-color:rgb(235, 240, 68) ;
+    text-decoration:none;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.cerrarsesion{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.registro{
+    background-color: rgba(56, 56, 56, 0.1);
+    margin-top: 125px;
+    margin-bottom: 100px;
+    border-radius: 20px 10px 50px 30px;
+    -webkit-border-radius: 20px 10px 50px 30px;
+    -moz-border-radius: 20px 10px 50px 30px;
+    border: 5px double;
+   
+}
+
+.card{
+    background-color: transparent;
+    border:none;
+    background-color: rgba(94, 90, 90, 0.1);
+    border-radius: 20px 10px 50px 30px;
+    -webkit-border-radius: 20px 10px 50px 30px;
+    -moz-border-radius: 20px 10px 50px 30px;
+    border: 4px double;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+
+.btnguardar{
+    background-color:rgb(235, 240, 68) ;
+    text-decoration:none;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.btnguardar :hover{
+    text-decoration:none;
+    border-color: black;
+    cursor: pointer;
+}
+
+
+
+
+
